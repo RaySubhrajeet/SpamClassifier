@@ -8,6 +8,7 @@ Naïve Bayes Classifier
 nbclassify.py use the model to classify new data, and nbevaluate.py print precision, recall, and F1 scores based on the output of nbclassify.py on development (i.e., labeled) data. 
 
 1.nblearn.py
+
   nblearn.py is invoked in the following way:
   >python3 nblearn.py input_data_path and output a model file called nbmodel.txt
 
@@ -21,6 +22,7 @@ nbclassify.py use the model to classify new data, and nbevaluate.py print precis
   For smoothing add-one smoothing is used. During testing, unknown tokens not seen in training (i.e., pretend they did not occur) are ignored.
 
 2.nbclassify.py
+
   nbclassify.py is invoked in the following way:
   >python3 nbclassify.py input_data_path
 
@@ -32,6 +34,7 @@ nbclassify.py use the model to classify new data, and nbevaluate.py print precis
   nbclassify.py  ignores any unknown tokens not seen in training (i.e., pretend they did not occur).
 
 3.nbevaluate.py
+
   nbevaluate.py is invoked in the following way:
   >python3 nbevaluate.py nboutput_filename
   
